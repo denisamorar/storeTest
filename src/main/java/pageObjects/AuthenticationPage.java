@@ -13,7 +13,7 @@ public class AuthenticationPage {
 
     @FindBy(id="email")
     private WebElement emailAddress;
-    @FindBy(id="password")
+    @FindBy(id="passwd")
     private WebElement password;
     @FindBy(xpath="//*[@class='icon-lock left']")
     private WebElement signInButton;
